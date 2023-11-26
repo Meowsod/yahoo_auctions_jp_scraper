@@ -1,17 +1,10 @@
-# No longer works due to the website changing
+# Yahoo Auctions JP Scraper
 
-# Yahoo Japan Auctions Scraper
+Fork of leoloman's [yjp_scraper](https://github.com/leoloman/yjp_scraper) modified for automatically scraping all pages, utilizing selectolax instead of beautifulsoup and outputting to JSON instead of panda.
 
-Do you want to Yahoo Japan Auction with ease?
+## Features
+* Scraping Yahoo Auctions Japan trough Buyee
+* Writing a JSON file out of the results
 
-Are you stuck sorting the items? Cycling through the drop down and not really knowing what affect it has on the site.
-
-Have i got the solution for you.
-
-# Welcome to **Leo's very basic yahoo japan auction scraper**
-
-I will guide you thru on finding your designer items using my scraper.
-
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](                                           https://colab.research.google.com/github/leoloman/yjp_scraper/blob/master/yahoo_jpn_scrape_v_2_colab.ipynb)
-
+## Usage
+Add in your GET headers to the Headers dictionary within the script and further modify it to your needs.
