@@ -8,3 +8,8 @@ Fork of leoloman's [yjp_scraper](https://github.com/leoloman/yjp_scraper) modifi
 
 ## Usage
 Add in your GET headers to the Headers dictionary within the script and further modify it to your needs.
+
+Requirements for base script:
+* json
+* requests
+* selectolax
